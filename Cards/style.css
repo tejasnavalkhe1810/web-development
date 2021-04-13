@@ -1,0 +1,120 @@
+/* Root elements */
+:root {
+  /* primary colors */
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* Neutral colors */
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+
+  /* font size */
+  --font-size: 15px;
+
+  /* font-family */
+  --lexend-deca: 'Lexend Deca', sans-serif;
+  --big-shoulds-display: 'Big Shoulders Display', cursive;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--very-light-gray);
+  font-size: 15px;
+  font-family: var(--lexend-deca);
+  font-weight: 400;
+  margin: 9em 5em;
+}
+.box {
+  padding: 3rem;
+  width: 25%;
+}
+/* Sedans */
+#sedans {
+  background-color: var(--bright-orange);
+  border-radius: 10px 0 0 10px;
+}
+
+/* Suvs */
+#suvs {
+  background-color: var(--dark-cyan);
+}
+
+/* Luxury */
+#luxury {
+  background-color: var(--very-dark-cyan);
+  border-radius: 0 10px 10px 0;
+}
+
+/* Utility classes */
+p {
+  color: var(--transparent-white);
+  margin: 0 4.1rem 3rem 0;
+}
+.btn {
+  cursor: pointer;
+  margin: 2em 0 1em 0;
+  border: 1px solid var(--very-light-gray);
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: var(--very-light-gray);
+  width: 50%;
+}
+.btn:hover {
+  background-color: transparent;
+  color: var(--very-light-gray);
+}
+.btn1 {
+  color: var(--bright-orange);
+}
+.btn2 {
+  color: var(--dark-cyan);
+}
+.btn3 {
+  color: var(--dark-cyan);
+}
+h1 {
+  margin: 1em 0;
+  color: var(--very-light-gray);
+  font-size: xx-large;
+  font-weight: 700;
+  font-family: var(--big-shoulds-display);
+}
+
+/* Media Query */
+
+@media (max-width: 1230px) {
+  body {
+    flex-direction: column;
+    margin: 12em 0em;
+  }
+  .box {
+    width: 50%;
+  }
+  #sedans {
+    border-radius: 10px 10px 0 0;
+  }
+  #luxury {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  body {
+    margin: 2rem 1rem;
+  }
+  .box {
+    width: 100%;
+  }
+}
