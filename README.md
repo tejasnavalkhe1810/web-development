@@ -1,4 +1,4 @@
 # Web-Development
 
 ## ------------------------------ Project 1 - Cards ------------------------------
-### Purpose: Learn to make Responsive Designs
+### Purpose: To make Responsive Designs
