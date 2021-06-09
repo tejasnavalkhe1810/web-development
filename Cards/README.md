@@ -1,6 +1,6 @@
 # Responsive Cards using flex box
-markdown: kramdown
-This project was assigned by [Frontend Mentor](https://Frontendmentor.io){:target="_blank" rel="noopener"} to practice Frontend Technologies (HTML, CSS, JavaScript, ReactJs, etc...)
+
+This project was assigned by [Frontend Mentor](https://Frontendmentor.io) to practice Frontend Technologies (HTML, CSS, JavaScript, ReactJs, etc...)
 
 ### Description:
 
